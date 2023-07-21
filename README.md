@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Certainly! Here's an updated version with individual tables for each section:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployment Model Information Collection Form
 
-## Available Scripts
+### Application Details:
 
-In the project directory, you can run:
+| Application Name      | Description               | Application Repository (Git URL)                  |
+|-----------------------|---------------------------|---------------------------------------------------|
+| [Enter name]          | [Enter description]       | [Enter Git repository URL]                       |
 
-### `npm start`
+### Kafka Topics and Consumer Group:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Kafka Topics used by the application   | Consumer Group details (if applicable) |
+|---------------------------------------|---------------------------------------|
+| [Enter Kafka topics]                  | [Enter consumer group details]        |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### MongoDB Collections:
 
-### `npm test`
+| MongoDB Collections used by the application | Specific indexes for performance optimization |
+|--------------------------------------------|--------------------------------------------|
+| [Enter MongoDB collections]                | [Enter specific indexes if any]           |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Hosts and System Accounts:
 
-### `npm run build`
+| Target Deployment Environment | Hosts or Servers for deployment         | System Account Credentials                          |
+|------------------------------|----------------------------------------|-----------------------------------------------------|
+| [Enter target environment]   | [Enter list of hosts or servers]      | [Enter system account credentials]                  |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Local Run Configurations:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Database Connection Strings               | API Endpoints                          | Other Configurations                           |
+|------------------------------------------|---------------------------------------|-----------------------------------------------|
+| [Enter database connection strings]      | [Enter API endpoints]                 | [Enter other configurations if applicable]   |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### External Infrastructure:
 
-### `npm run eject`
+| Kafka Server(s) URL or IP                | MongoDB Server(s) URL or IP            | Other External Services (if applicable)    |
+|-----------------------------------------|---------------------------------------|-------------------------------------------|
+| [Enter Kafka server(s) URL or IP]       | [Enter MongoDB server(s) URL or IP]   | [Enter other external services if any]    |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Load Balancer (if applicable):
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Load Balancer URL or IP                 | Load Balancer Configuration Details (if applicable) |
+|----------------------------------------|----------------------------------------------------|
+| [Enter load balancer URL or IP]        | [Enter load balancer configuration details]       |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Environment-Specific Configurations:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| Configuration files or environment variables for each environment |
+|-------------------------------------------------------------------|
+| [Enter configuration details for each environment]                |
 
-## Learn More
+### Centralized Logging and Monitoring:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Logging Solution                        | Monitoring Solution                         |
+|----------------------------------------|--------------------------------------------|
+| [Enter logging solution details]       | [Enter monitoring solution details]       |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Additional Information:
 
-### Code Splitting
+| Additional Information                         |
+|-----------------------------------------------|
+| [Enter any additional information if needed]  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please fill in the corresponding tables with the required information for each section. This structured form will help ensure that all the details are organized and easily accessible for the DevOps team during the deployment process.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or need further assistance, feel free to reach out to the DevOps team. Happy deploying!
